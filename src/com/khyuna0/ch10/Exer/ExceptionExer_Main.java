@@ -41,9 +41,10 @@ public class ExceptionExer_Main {
 		// 3번 문제
 		
 		EvenOdd evenOdd = new EvenOdd();
-		int num3 = scanner.nextInt();
-		scanner.nextLine();
+		
 		try {
+			int num3 = scanner.nextInt();
+			scanner.nextLine();
 			evenOdd.EOCheck(num3);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -58,7 +59,7 @@ public class ExceptionExer_Main {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}       
+		}    
     
 		
 	}
